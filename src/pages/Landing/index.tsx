@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import LogoImg from '../../assets/images/logo.svg'
+import LogoImg from '../../assets/images/logo.jpg'
 import LandingLogo from '../../assets/images/landing.svg'
 import StudyImg from '../../assets/images/icons/study.svg'
 import GiveClassesImg from '../../assets/images/icons/give-classes.svg'
@@ -25,7 +25,7 @@ function Landing() {
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={LogoImg} alt="Proffy" />
-                    <h2>Sua plataforma de estudos online</h2>
+                    <h2>Sua plataforma de desenvolvedores</h2>
                 </div>
 
                 <img 
@@ -37,11 +37,11 @@ function Landing() {
                 <div className="buttons-container">
                     <Link to="/study" className="study">
                     <img src={StudyImg} alt="Estudar" />
-                    Estudar
+                    Serach Developer
                     </Link>
                     <Link to="/give-classes" className="give-classes">
                     <img src={GiveClassesImg} alt="Estudar" />
-                    Dar aulas
+                    I'm developer
                     </Link>
                 </div>
 
