@@ -25,7 +25,7 @@ function Landing() {
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={LogoImg} alt="Proffy" />
-                    <h2>Sua plataforma de desenvolvedores</h2>
+                    <h2>Your developer platform</h2>
                 </div>
 
                 <img 
@@ -36,17 +36,17 @@ function Landing() {
 
                 <div className="buttons-container">
                     <Link to="/study" className="study">
-                    <img src={StudyImg} alt="Estudar" />
+                    <img src={StudyImg} alt="Search developer" />
                     Serach Developer
                     </Link>
                     <Link to="/give-classes" className="give-classes">
-                    <img src={GiveClassesImg} alt="Estudar" />
+                    <img src={GiveClassesImg} alt="I'm developer" />
                     I'm developer
                     </Link>
                 </div>
 
                 <span className="total-connections">
-                Total de {totalConnections} conexões já realizadas <img src={TotalConnectionsImg} alt="Coração Roxo" />
+                Total de {totalConnections} connections alrady <img src={TotalConnectionsImg} alt="Heart Purple" />
                 </span>
             </div>
         </div>

@@ -34,27 +34,27 @@ function TeacherForm() {
 
     return (
         <div id="page-teacher-form" className="container">
-            <PageHeader title="Que incrível que você quer dar aula."
-            description="O primeiro paso é prencher esse formulário de inscrição."
+            <PageHeader title="How amazing that you are a developer."
+            description="The first step is to fill out this registration form."
             />
 
             <main>
                 <form onSubmit={handleCreateClasse}>
                     <fieldset>
-                        <legend>Seus dados</legend>
+                        <legend>Your data</legend>
 
-                        <Input name="name" label="Nome completo" value={name} onChange={(e) => {setName(e.target.value)}} />
+                        <Input name="name" label="Full name" value={name} onChange={(e) => {setName(e.target.value)}} />
                         <Input name="email" label="E-mail" value={email} onChange={(e) => {setEmail(e.target.value)}} />
-                        <Textarea name="bio" label="Biografia"  value={bio} onChange={(e) => {setBio(e.target.value)}} />
+                        <Textarea name="bio" label="Biograpy"  value={bio} onChange={(e) => {setBio(e.target.value)}} />
                     </fieldset>
                     
                     <footer>
                         <p>
-                            <img src={warningIcon} alt="Aviso importante"/>
-                            Importante! <br />
-                            Preencha todos os dados
+                            <img src={warningIcon} alt="Alert"/>
+                            Important! <br />
+                            Fill in all the details
                         </p>
-                        <button type="submit">Salvar cadastro</button>
+                        <button type="submit">Save</button>
                     </footer>
                 </form>
             </main>
