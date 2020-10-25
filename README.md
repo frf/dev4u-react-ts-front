@@ -1,44 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+    This platform arose from a great difficulty in looking for a developer for a project.
+    I come to share this project with you
+</h4>
 
-## Available Scripts
+<p align="center">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/frf/react-multi-app.svg">
+  <a href="https://github.com/frf/dev4u-react-ts-front/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/frf/react-multi-app.svg">
+  </a>
 
-In the project directory, you can run:
+  <a href="https://github.com/frf/dev4u-react-ts-front/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/frf/react-multi-app.svg">
+  </a>
 
-### `yarn start`
+  <img alt="GitHub" src="https://img.shields.io/github/license/frf/react-multi-app.svg">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#frf">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![App Screenshot](https://dev4u.app/images/screen_demo.png)
+<p align="center">
+  <a href="https://dev4u.app" target="_blank">
+    <h3 align="center">Demo</h3>
+  </a>
+</p>
 
-### `yarn test`
+## :smiley: About
+I'm developing using react and as nestjs server, everything is still very new :)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :computer: Technologies
+This project was developed with the following technologies:
 
-### `yarn build`
+- [ReactJS](https://reactjs.org/)
+- [TypeScriptLang](https://www.typescriptlang.org/docs/handbook/react.html)
+- [react-router-dom](https://github.com/ReactTraining/react-router)
+- [VS Code][vscode] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :memo: License
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This project is under the MIT license. See the [LICENSE](https://github.com/frf/dev4u-react-ts-front/blob/master/LICENSE) for more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+Made with ♥ by Fabio Farias :wave: [Get in touch!](https://linkedin.com/in/fabiorochafarias/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[ts]: https://www.typescriptlang.org
+[vscode]: https://code.visualstudio.com/
+[yarn]: https://yarnpkg.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
